@@ -97,9 +97,9 @@ $me = "?page=$source";
                                                         <input type="hidden" class="form-control" name="id"
                                                             value="<?php echo $id ?>" required id="">
 
-                                                        <p>Train : <select class="form-control" name="train_id" required
+                                                        <p>Vehicle : <select class="form-control" name="train_id" required
                                                                 id="">
-                                                                <option value="">Select Train</option>
+                                                                <option value="">Select Vehicle</option>
                                                                 <?php
                                                                     $cons = connect()->query("SELECT * FROM train");
                                                                     while ($t = $cons->fetch_assoc()) {
